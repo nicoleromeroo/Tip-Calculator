@@ -42,3 +42,18 @@ A simple full-stack Tip Calculator built with **Spring Boot** (Java) and **Vanil
 ```bash
 git https://github.com/nicoleromeroo/Tip-Calculator.git
 cd tip-calculator
+
+### Project Structure
+
+tip-calculator/
+├── backend/
+│   └── src/main/java/com/example/tipcalc/
+│       ├── controller/TipController.java
+│       ├── model/TipRequest.java
+│       ├── model/TipResponse.java
+│       └── service/TipCalculatorService.java
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── README.md
